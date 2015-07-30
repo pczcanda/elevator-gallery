@@ -1,0 +1,252 @@
+.landing-logo {
+  padding: 200px 0;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.landing-logo .main-logo {
+  max-width: 80%;
+  display: block;
+  margin: 0 auto;
+}
+
+.scroller {
+  display: inline-block;
+  border: 1px solid #000000;
+  background: #000000;
+  padding: 10px 15px;
+  color: #FFFFFF;
+  font-size: 15px;
+}
+
+.scroller:hover{
+    color: #E2C94E;
+}
+
+.landing-logo .scroller {
+  margin: 50px auto 0;
+}
+
+.image-text-grid {
+  font-size: 0;
+}
+
+.image-text-grid .image-text-grid__image {
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+  font-size: 13px;
+  text-align: center;
+  margin: 0 auto 40px;
+}
+
+.image-text-grid .image-text-grid__text {
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+  font-size: 13px;
+}
+
+.big-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  background: #E2C94E;
+  color: #000000;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.big-image span {
+  line-height: 100px;
+  font-family: 'p22', sans-serif;
+  font-size: 50px;
+  color: #FFFFFF;
+}
+
+.sign-up-container {
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 0 40px 40px;
+  box-sizing: border-box;
+  min-height: : 100%;
+  text-align: center;
+}
+
+.tabs-container {
+  font-size: : 0;
+  margin: 40px 0 0;
+}
+
+.tabs-container .tab-trigger {
+  display: inline-block;
+  width: 50%;
+  vertical-align: top;
+  font-size: 13px;
+  text-transform: uppercase;
+  background: #000000;
+  color: #FFFFFF;
+  box-sizing: border-box;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.tabs-container .tab-trigger.active {
+  background: #F2F2F2;
+  color: #000000;
+}
+
+.tabs-container .tab-trigger:hover {
+  background: #000000;
+  color: #E2C94E;
+}
+
+.tabs-container .tabs-content .tab {
+  display: none;
+  padding: 30px 20px;
+  text-align: left;
+}
+
+.tabs-container .tabs-content .tab.active {
+  display: block;
+background: #F2F2F2;
+}
+
+.content-imposer {
+  text-align: center;
+}
+
+.section-category {
+  font-size: 12px;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  margin: 0 0 10px;
+  font-family: 'p22', sans-serif;
+  letter-spacing: 0px;
+  display: block;
+}
+
+.section-title {
+  /*font-weight: bold;*/
+  font-size: 50px;
+  font-size: 5rem;
+  margin: 0 0 40px;
+}
+
+.section-description {
+  font-size: 18px;
+  font-size: 1.8rem;
+  line-height: 1.5;
+  font-weight: lighter;
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 0;
+}
+
+.users-counter {
+  margin: 0 0 80px;
+}
+
+.counter {
+  margin: 80px auto;
+}
+
+.users-counter .top, .counter .number {
+  font-size: 78px;
+  font-size: 7.8rem;
+  display: block;
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+
+.users-counter .bottom, .counter .description {
+  display: block;
+  font-size: 18px;
+  font-size: 1.8rem;
+  line-height: 1.5;
+  text-transform: uppercase;
+  font-weight: lighter;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.brand-counter {
+  padding: 80px auto;
+  font-size: 58px;
+  font-size: 5.8rem;
+  display: block;
+  text-transform: uppercase;
+}
+
+.page-separator{
+    width: 100%;
+    text-align: center;
+    background: #FFFFFF;
+padding: 40px 0;
+text-align: center;
+}
+.separator{
+    width: 40%;
+    min-width: 150px;
+    max-width: 320px;
+    height: 1px;
+    background: #000000;
+    margin: 0 auto;
+}
+
+
+@media only screen and (max-width: 569px) {}
+
+@media only screen and (min-width: 480px) {}
+
+@media only screen and (min-width: 690px) {
+  .image-text-grid {
+    margin: 0 auto 40px;
+  }
+  .image-text-grid .image-text-grid__image {
+    width: 35%;
+  }
+  .image-text-grid .image-text-grid__text {
+    width: 65%;
+  }
+  .image-text-grid.image-text-grid--mirrored .image-text-grid__text {
+    float: left;
+  }
+  .image-text-grid.image-text-grid--mirrored .image-text-grid__image {
+    float: right;
+  }
+  .tabs-container .tab-trigger {
+    font-size: 15px;
+    padding: 20px;
+  }
+  .tabs-container .tabs-content .tab {
+    font-size: 13px;
+  }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 767px) {}
+
+@media only screen and (min-width: 768px) {
+  .landing-logo {
+    padding: 300px 0 100px;
+  }
+  .landing-logo .main-logo {
+    max-width: 600px;
+  }
+  .landing-logo .scroller {
+    margin: 200px auto 0;
+  }
+}
+
+@media screen and (min-width: 1000px) {}
+
+@media only screen and (min-width: 1224px) {}
+
+@media only screen and (min-width: 1366px) {
+  .landing-logo .main-logo {
+    max-width: 800px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {}
+
+@media only screen and (min-width: 1600px) {}

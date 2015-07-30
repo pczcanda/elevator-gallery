@@ -1,0 +1,28 @@
+/*#region FONT-FACES*/
+
+@font-face {
+    font-family: 'p22';
+    src: url('../../fonts/p22-underground-webfont.eot');
+    src: url('../../fonts/p22-underground-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../../fonts/p22-underground-webfont.woff2') format('woff2'),
+         url('../../fonts/p22-underground-webfont.woff') format('woff'),
+         url('../../fonts/p22-underground-webfont.ttf') format('truetype'),
+         url('../../fonts/p22-underground-webfont.svg#p22_undergroundregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'slim_joeregular';
+    src: url('../../fonts/slim_joe-webfont.eot');
+    src: url('../../fonts/slim_joe-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../../fonts/slim_joe-webfont.woff2') format('woff2'),
+         url('../../fonts/slim_joe-webfont.woff') format('woff'),
+         url('../../fonts/slim_joe-webfont.ttf') format('truetype'),
+         url('../../fonts/slim_joe-webfont.svg#slim_joeregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/*#endregion*/

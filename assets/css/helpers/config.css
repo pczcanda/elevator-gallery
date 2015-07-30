@@ -1,0 +1,93 @@
+.clearfix {
+  clear: both;
+  -ms-zoom: 1;
+  zoom: 1;
+  position: relative;
+}
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+
+.size-indicator {
+  position: absolute;
+  top: -999em;
+  left: -999em;
+  bottom: auto;
+  right: auto;
+  width: 1px;
+  height: 1px;
+}
+
+.hide {
+  position: absolute;
+  left: -9999em;
+  top: -9999em;
+}
+
+.inpage-hide{
+  position: absolute; top: -9999em; left: -9999em;
+}
+
+
+
+@media only screen and (min-width: 480px) {
+  .size-indicator {
+    width: 3px;
+    height: 3px;
+  }
+}
+
+@media only screen and (min-width: 690px) {
+  .size-indicator {
+    width: 4px;
+    height: 4px;
+  }
+}
+
+
+@media only screen and (min-width: 768px) {
+  .size-indicator {
+    width: 5px;
+    height: 5px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .size-indicator {
+    width: 6px;
+    height: 6px;
+  }
+}
+
+@media only screen and (min-width: 1224px) {
+  .size-indicator {
+    width: 7px;
+    height: 7px;
+  }
+}
+
+@media only screen and (min-width: 1366px) {
+  .size-indicator {
+    width: 8px;
+    height: 8px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .size-indicator {
+    width: 9px;
+    height: 9px;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .size-indicator {
+    width: 10px;
+    height: 10px;
+  }
+}

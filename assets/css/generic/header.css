@@ -1,0 +1,99 @@
+/*#region HEADER*/
+
+header,
+.header {
+  background: #000000;
+  position: fixed;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 20;
+  height: 50px;
+  text-transform: uppercase;
+  color: white;
+  font-size: 0;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+}
+
+header.animated{
+    top: 0;
+
+}
+
+header .header-content-inner{
+    margin: 0 auto;
+}
+  header .header-inner{
+      display: inline-block;
+      height: 100%;
+      width: 50%;
+      vertical-align: top;
+      font-size: 13px;
+  text-align: left;
+  box-sizing: border-box;
+  padding: 0 0 0 20px;
+  }
+
+  header .header-inner.right{
+      text-align: right;
+  padding:  0 20px 0 0;
+  }
+
+  .header-home{
+      height: 100%;
+      display: block;
+      overflow: hidden;
+  }
+
+  .header-home p{
+      line-height: 50px;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      display: inline-block;
+      vertical-align: middle;
+  }
+
+  .header-home img{
+      display: inline-block;
+      margin: 5px;
+      /*width: 40px;*/
+      height: 30px;
+      vertical-align: middle;
+  }
+
+  .header-menu{
+      font-size: 0;
+  }
+
+  .header-menu li{
+      display: inline-block;
+      line-height: 50px;
+      vertical-align: top;
+      font-size: 13px;
+      margin: 0 15px 0 0;
+  }
+
+  .header-menu li.last{
+      margin: 0;
+  }
+
+  header a{
+      color: #FFFFFF;
+  }
+
+  header a:hover{
+      color: #E2C94E;
+  }
+/*#endregion*/
+
+@media only screen and (min-width: 768px) {
+    header .header-inner{
+    padding: 0 0 0 40px;
+    }
+
+    header .header-inner.right{
+    padding:  0 40px 0 0;
+    }
+}

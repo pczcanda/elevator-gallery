@@ -1,0 +1,57 @@
+/*#region GENERICS*/
+
+html {
+  font-family: 'slim_joeregular', 'Trebuchet MS', Arial, sans-serif;
+  font-weight: normal;
+  font-size: 62.5%;
+}
+body {
+  font-size: 13px;
+  font-size: 1.3rem;
+  line-height: 1.4;
+}
+/*#endregion*/
+
+/*#region HEADINGS*/
+h1,
+h2,
+h3,
+h4{
+  line-height: 1;
+  margin: 0 0 20px;
+}
+
+h1 {
+  font-size: 60.75px;
+  font-size: 6.075rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 40.5px;
+  font-size: 4.05rem;
+}
+
+h3 {
+  font-size: 27px;
+  font-size: 2.7rem;
+}
+
+h4 {
+  font-size: 18px;
+  font-size: 1.8rem;
+}
+/*#endregion*/
+
+/*#region LINKS*/
+a {
+  color: #26596a;
+}
+
+  a:hover,
+  a:focus,
+  a:active {
+    color: #4daaab;
+  }
+/*#endregion*/

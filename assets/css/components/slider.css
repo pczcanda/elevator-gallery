@@ -1,0 +1,148 @@
+.slider-container {
+  font-size: 0;
+  height: auto;
+}
+
+.slider-container .slider__panes {
+  width: 100%;
+  height: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.slider-container .slider__panes .item {
+  display: inline-block;
+  vertical-align: top;
+  white-space: normal;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.slider-container .slider__panes .item .item-image {
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+  max-height: 250px;
+  width: 100%;
+  text-align: center;
+}
+
+.slider-container .slider__panes .item .item-image:before {
+  padding-bottom: 56.25%;
+  content: '';
+  width: 0;
+  height: 0;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.slider-container .slider__panes .item .item-image .item-image-inner {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: block;
+}
+
+.slider-container .slider__panes .item .item-image img {
+  height: auto;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.slider-container .slider__panes .item .item-content {
+  position: relative;
+  z-index: 5;
+  padding: 20px 20px 0;
+  box-sizing: border-box;
+  background: #FFFFFF;
+}
+
+.slider__nav {
+  position: absolute;
+  top: 100px;
+  z-index: 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  background: black;
+  transition: opacity 0.3 ease-in-out;
+  margin: -20px 0 0;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.slider__nav.slider__nav--next {
+  right: 20px;
+}
+
+.slider__nav.slider__nav--prev {
+  left: 20px;
+}
+
+.slider-navigation:hover .slider__nav {
+  opacity: 0.7;
+}
+
+.slider-navigation:hover .slider__nav:hover {
+  opacity: 1;
+}
+
+@media only screen and (max-width: 569px) {}
+
+@media only screen and (min-width: 480px) {}
+
+@media only screen and (min-width: 690px) {}
+
+@media only screen and (min-width: 0px) and (max-width: 767px) {}
+
+@media only screen and (min-width: 768px) {
+  .slider-container {
+    height: 500px;
+  }
+  .slider-container .slider__panes .item .item-content {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 0;
+    bottom: 0;
+    background: none;
+    padding: 80px 20px;
+    background: #000000;
+    background: rgba(0, 0, 0, 0.3);
+    color: #FFFFFF;
+    text-shadow: 1px 1px 12px rgba(0,0,0,0.7);
+  }
+  .slider-container .slider__panes .item .item-image {
+    max-height: none;
+    height: 100%;
+  }
+  .slider__nav {
+    top: 50%;
+  }
+}
+
+@media screen and (min-width: 1000px) {}
+
+@media only screen and (min-width: 1224px) {
+  .slider-container .slider__panes .item .item-content {
+    padding: 100px 40px;
+  }
+}
+
+@media only screen and (min-width: 1366px) {
+  .slider-container {
+    height: 650px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .slider-container {
+    height: 800px;
+  }
+}
+
+@media only screen and (min-width: 1600px) {}

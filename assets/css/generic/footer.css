@@ -1,0 +1,22 @@
+/*#region FOOTER*/
+
+footer,
+.footer {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+footer > .inner{
+    height:100%;
+    width: 100%;
+    background: #F2F2F2;
+    box-sizing: border-box;
+    padding: 20px 10px;
+}
+/*#endregion*/
+
+@media only screen and (min-width: 768px) {
+    footer,
+    .footer {
+    }
+}
