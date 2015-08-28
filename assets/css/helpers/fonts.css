@@ -89,3 +89,17 @@
     font-style: normal;
 
 }
+
+
+@font-face {
+    font-family: 'villageregular';
+    src: url('../../fonts/village-webfont.eot');
+    src: url('../../fonts/village-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../../fonts/village-webfont.woff2') format('woff2'),
+         url('../../fonts/village-webfont.woff') format('woff'),
+         url('../../fonts/village-webfont.ttf') format('truetype'),
+         url('../../fonts/village-webfont.svg#villageregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

@@ -14,12 +14,10 @@ body {
 
 /*#region HEADINGS*/
 h1,
-h2,
-h3,
-h4{
-  line-height: 1;
+h2{
   margin: 0 0 20px;
-  font-family: 'euclid_flexbold', 'Trebuchet MS', Arial, sans-serif;
+  font-family: 'villageregular', 'Trebuchet MS', Arial, sans-serif;
+  text-transform: uppercase;
 }
 
 h1 {
