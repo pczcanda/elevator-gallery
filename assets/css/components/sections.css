@@ -59,7 +59,7 @@
 
 .big-image span {
   line-height: 100px;
-  font-family: 'p22', sans-serif;
+  font-family: 'euclid_flexlight', sans-serif;
   font-size: 50px;
   color: #FFFFFF;
 }
@@ -122,7 +122,7 @@ background: #F2F2F2;
   font-size: 1.2rem;
   text-transform: uppercase;
   margin: 0 0 10px;
-  font-family: 'p22', sans-serif;
+  font-family: 'euclid_flexlight', sans-serif;
   letter-spacing: 0px;
   display: block;
 }
@@ -139,7 +139,7 @@ background: #F2F2F2;
   font-size: 1.8rem;
   line-height: 1.5;
   font-weight: lighter;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'euclid_flexlight', sans-serif;
   margin-bottom: 0;
 }
 
@@ -166,7 +166,7 @@ background: #F2F2F2;
   line-height: 1.5;
   text-transform: uppercase;
   font-weight: lighter;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'euclid_flexlight', sans-serif;
 }
 
 .brand-counter {

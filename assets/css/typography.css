@@ -1,7 +1,7 @@
 /*#region GENERICS*/
 
 html {
-  font-family: 'slim_joeregular', 'Trebuchet MS', Arial, sans-serif;
+  font-family: 'euclid_flexregular', 'Trebuchet MS', Arial, sans-serif;
   font-weight: normal;
   font-size: 62.5%;
 }
@@ -19,6 +19,7 @@ h3,
 h4{
   line-height: 1;
   margin: 0 0 20px;
+  font-family: 'euclid_flexbold', 'Trebuchet MS', Arial, sans-serif;
 }
 
 h1 {
